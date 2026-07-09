@@ -104,6 +104,7 @@
         <file alias="ic-copy-big">pivx/res/img/ic-copy-big.svg</file>
         <file alias="ic-copy-big-white">pivx/res/img/ic-copy-big-white.svg</file>
         <file alias="ic-exit">pivx/res/img/ic-exit.svg</file>
+        <file alias="ic-exit-light">pivx/res/img/ic-exit-light.svg</file>
         <file alias="ic-expand">pivx/res/img/ic-expand.svg</file>
         <file alias="ic-folder">pivx/res/img/ic-folder.svg</file>
         <file alias="ic-label-liliac">pivx/res/img/ic-label-liliac.svg</file>
