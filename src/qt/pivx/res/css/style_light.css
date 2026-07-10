@@ -2574,7 +2574,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 QPushButton[cssClass="btn-faq-exit"] {
-  background: url("://ic-exit");
+  background: url("://ic-exit-light");
   background-repeat: no-repeat;
   background-position: right center;
   background-color: transparent;
@@ -3200,4 +3200,25 @@ QRadioButton[cssClass="radio-welcome"]::indicator:unchecked {
   background: url("://btn-radio-off");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+
+/*HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HH      OVERRIDES
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
+/* Light theme: neutralize bg-welcome for welcome container and FAQ */
+*[cssClass="container-welcome"] {
+  border-image: none !important;
+  background-image: none !important;
+  background-color: #ffffff !important;
+}
+
+/* Prevent bg-welcome bleed into FAQ area and children */
+#scrollAreaFaq,
+*[cssClass="container-faq-buttons"],
+*[cssClass="text-content-faq"],
+*[cssClass="text-title-faq"],
+*[cssClass="text-subtitle-faq"] {
+  background-image: none !important;
+  background-color: #ffffff !important;
 }

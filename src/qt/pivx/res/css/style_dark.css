@@ -2561,7 +2561,7 @@ HH        FAQ
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 *[cssClass="text-title-faq"] {
-  color: #000000;
+  color: #ffffff;
   font-size: 26px;
 }
 
@@ -2572,12 +2572,12 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 *[cssClass="text-subtitle-faq"] {
-  color: #000000;
+  color: #ffffff;
   font-size: 22px;
 }
 
 *[cssClass="text-content-faq"] {
-  color: #000000;
+  color: #ffffff;
   font-size: 18px;
 }
 
@@ -2596,7 +2596,7 @@ QPushButton[cssClass="btn-faq-exit"] {
   border: none;
   padding: 0 30px 0 0;
   font-size: 18px;
-  color: #000000;
+  color: #ffffff;
   text-align: left;
 }
 
@@ -2612,7 +2612,7 @@ QPushButton[cssClass="btn-faq-options"] {
   background-color: transparent;
   border: none;
   font-size: 18px;
-  color: #000000;
+  color: #ffffff;
   padding: 0 20px;
   text-align: left;
 }
@@ -2621,7 +2621,7 @@ QPushButton[cssClass="btn-faq-options"]:checked {
   background-color: rgba(221, 221, 221, 0.2);
   border: none;
   font-size: 18px;
-  color: #000000;
+  color: #ffffff;
   padding: 0 20px;
   text-align: left;
 }
